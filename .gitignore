@@ -5,3 +5,4 @@ __pycache__/
 models/
 dataset.json
 db.sqlite3
+local_models/
