@@ -8,8 +8,8 @@ from sentence_transformers import SentenceTransformer, util
 from spellchecker import SpellChecker
 
 # Initialize models
-# tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
-# model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+#  tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
+#  model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium", cache_dir="./models/")
 model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium", cache_dir="./models/")
